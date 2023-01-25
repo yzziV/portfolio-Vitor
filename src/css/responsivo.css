@@ -1,0 +1,65 @@
+@media (max-width: 1280px){
+    body{
+background-color: #ffffff;
+    }
+    .cabecalho .menu{
+        font-size: 10px;
+        position: absolute;
+        left:270PX;
+        visibility: hidden;
+        margin-left: -3000px;
+        padding-left: -3000px;
+    }
+    .container .foto{
+        margin-left: 30px;
+    }
+    .container .descricoes{
+        visibility: hidden;
+        margin-left: -3000px;
+        padding-left: -3000px;
+    }
+    .container .apresentacao{
+    position: absolute;
+    visibility: hidden;
+    margin-left: -3000px;
+    padding-left: -3000px;
+    }
+    .container .redes{
+        margin-left: 30px;
+        align-items: center;
+        flex-direction: column;
+        visibility: hidden;
+        margin-left: -3000px;
+        padding-left: -3000px;
+    }
+    .container .nome{
+        visibility: hidden;
+        margin-left: -3000px;
+        padding-left: -3000px;
+    }
+    .container .desenvolvedor-web{
+        visibility: hidden;
+        margin-left: -3000px;
+        padding-left: -3000px;
+    }
+    .container .botoes {
+        margin-left: -765px;
+        display: flex;
+        margin-bottom: -500px;
+    }
+    .container .descricao-apresentacao{
+        visibility: hidden;
+        margin-left: -3000px;
+        padding-left: -3000px;
+    }
+    .container .inferior-direito{
+        visibility: hidden;
+        margin-left: -3000px;
+        padding-left: -3000px;
+    }
+}
+@media (max-width: 700px){
+    .container .foto{
+
+    }
+}

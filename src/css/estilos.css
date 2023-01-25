@@ -1,0 +1,233 @@
+body{
+    font-family:'Nunito';
+}
+.cabecalho{
+    background-color: #ffffff;
+    display: flex;
+    padding: 15px;
+    max-width: 1440px;
+    margin: 0;
+}
+.cabecalho .logo{
+    width: 15px;
+    padding-top: 10px;
+    cursor: pointer;
+}
+.cabecalho .texto-logo{
+text-align:left;
+margin-left: 5px;
+font-size: 25px;
+cursor: pointer;
+}
+.cabecalho .menu{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    cursor: pointer;
+    position: absolute;
+    left: 1350px;
+    bottom:447px;
+}
+.cabecalho nav li a {
+    font-size: 15px;
+    padding: 10px 10px;
+    border-radius: 40px;
+    transition: 0.2s;
+}
+.cabecalho nav li a:hover{
+color: #92959b;
+}
+
+.container {
+    max-width: 2000px;
+    margin: 0 auto;
+    display: flex;
+}
+.container .apresentacao{
+    font-size: 70px;
+    padding: 1px 790px;
+    position: absolute;
+    top: 130px;
+}
+.container .descricao-apresentacao{
+    font-size: 30px;
+    padding: 1px 700px;
+    position: absolute;
+    left: 100px;
+    bottom: 700px;
+}
+.container .botoes{
+    position: absolute;
+    left: 780px;
+    bottom: 630px;
+}
+.container .descricoes{
+    position: absolute;
+    left: 780px;
+    bottom: 300px;
+}
+.container .descricao-1{
+    color: #5f6269;
+    width: 47%;
+    font-size: 18px;
+    margin: 30px 0;
+}
+.container .descricao-2{
+    color: #5f6269;
+    width: 47%;
+    font-size: 18px;
+    margin: 10px 0;
+}
+.container .nome{
+    color: #ffffff;
+    position: absolute;
+    left: 433px;
+    bottom: 500px;
+}
+.container .desenvolvedor-web .desenvolvedor{
+    color: #ffffff;
+    position: absolute;
+    left: 433px;
+    bottom: 450px;
+}
+.container .desenvolvedor-web .web{
+    color: #ffffff;
+    position: absolute;
+    left: 500px;
+    bottom: 420px;
+}
+.container .botoes .botao-curriculo{
+    background-color: #000000;
+    color:#ffffff;
+    margin: 0 20px;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 300px;
+    text-transform: uppercase;
+}
+.container .botoes .botao-curriculo:hover{
+    background: rgba(0,0,0,0);
+    color: #000000;
+    box-shadow: inset 0 0 0 3;
+}
+.container .botoes .botao-projetos{
+    background-color: #000000;
+    color:#ffffff;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 300px;
+    text-transform: uppercase;
+}
+.container .botoes .botao-projetos:hover{
+background: rgba(0,0,0,0);
+color: #000000;
+box-shadow: inset 0 0 0 3;
+}
+.container .redes{
+    transition: 0.2s;
+    color: #ffffff;
+    position: absolute;
+    left: 440px;
+    bottom: 230px;
+}
+.container .linkedin{
+    width: 30px;
+    margin: 0 5px;
+    cursor: pointer;
+}
+.container .redes .linkedin:hover{
+background: rgba(0,0,0,0);
+color: #000000;
+box-shadow: inset 0 0 0 3;
+}
+.container .instagram{
+    width: 30px;
+    margin: 0 5px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.container .instagram:hover{
+color: #0055ff;
+}
+.container .github{
+    width: 30px;
+    margin: 0 5px;
+    cursor: pointer;
+}
+.container .whatsapp{
+    width: 30px;
+    margin: 0 5px;
+    cursor: pointer;
+}
+.container .inferior-direito{
+    display: flex;
+    position: absolute;
+    bottom: -78px;
+}
+.container .inferior-direito .email{
+    margin: 0 0 0 800px;
+    font-size: 18px;
+}
+.container .inferior-direito .email a{
+    color: #000000;
+    transition: 0.2s;
+}
+.container .inferior-direito .email a:hover{
+    color: #92959b;
+}
+.container .inferior-direito .telefone{
+    font-size: 18px;
+    margin: 0 100px;
+}
+.container .inferior-direito .redes-inferior{
+    transition: 0.2s;
+    font-size: 16px;
+    position: absolute;
+    left: 1494px;
+    bottom: 60px;
+}
+.container .inferior-direito .linkedin-final{
+    width: 30px;
+    cursor: pointer;
+    margin: 0 10px;
+    bottom: 7px;
+}
+.container .inferior-direito .instagram-final{
+    width: 30px;
+    cursor: pointer;
+    margin: 0 10px
+}
+.container .inferior-direito .github-final{
+    width: 30px;
+    cursor: pointer;
+    margin: 0 10px
+}
+.container .inferior-direito .whatsapp-final{
+    width: 30px;
+    cursor: pointer;
+    margin: 0 10px
+}
+.container .foto{
+    width: 450px;
+    display: flex;
+    margin-left: 300px;
+    margin-top: 50px;
+}
+.container .direitos-autorais{
+    display: flex;
+    font-size: 15px;
+    color: #a8adb7;
+    position: absolute;
+    bottom: -78px;
+}
+body{
+    background-image: url(../images/fundo.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+}
+
